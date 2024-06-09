@@ -8,7 +8,7 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
   return (
     <StyledWrapper>
       <div className="top">
-        <Emoji>🔎</Emoji> Search
+        <Emoji>🔎</Emoji> 검색
       </div>
       <input
         className="mid"
@@ -23,7 +23,7 @@ const SearchInput: React.FC<Props> = ({ ...props }) => {
 export default SearchInput
 
 const StyledWrapper = styled.div`
-  margin-bottom: 1rem;
+  margin-bottom: 1rem
 
   @media (min-width: 768px) {
     margin-bottom: 2rem;

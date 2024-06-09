@@ -8,8 +8,14 @@ const CONFIG = {
     email: "hi@noa.kim",
     linkedin: "",
     github: "yesa0513",
-    instagram: "",
+    instagram: "_rlashdk_",
   },
+  projects: [
+    {
+      name: `Notion-Blog`,
+      href: "https://github.com/yesA0513/Notion-Blog",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "김노아의 Blog",
